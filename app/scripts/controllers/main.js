@@ -15,25 +15,25 @@ angular.module('hoqiiApp')
     		{
     			'image': 'images/bg1.jpg',
     			'text': 'title',
-    			'title': 'QPOS',
-    			'description': 'Sistem POS terpadu menggunakan Android sebagai Point of Sales Anda.',
-    			'faClass': 'fa-tablet',
-                'link': '#/qpos'
+    			'title': 'Paperless Exam',
+    			'description': 'Saatnya melakukan ujian dimana saja dan kapan saja.',
+    			'faClass': 'fa-file-excel-o',
+                'link': '#/certivian'
     		},
     		{
     			'image': 'images/bg2.jpg',
     			'text': 'title',
-    			'title': 'QDelivery',
-    			'description': 'Sistem Penjualan dan Pesan Antar terintegrasi.',
-    			'faClass': 'fa-truck',
+    			'title': 'Choose Your Own Exam',
+    			'description': 'Dapat memilih ujian apa yang akan diikuti.',
+    			'faClass': 'fa-folder-o',
                 'link': '#/qdelivery'
     		},
     		{
     			'image': 'images/bg3.jpg',
     			'text': 'title',
-    			'title': 'Toko Online',
-    			'description': 'Otomatis setiap site dapat menjadi toko online terpadu',
-    			'faClass': 'fa-bookmark-o',
+    			'title': 'Daftar dan ikuti tesnya',
+    			'description': 'Anda dapat melakukan tes sekarang juga dengan klik Daftar.',
+    			'faClass': 'fa-pencil-square-o',
                 'link': '#/qstore'
     		}
     	]

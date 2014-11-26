@@ -4,30 +4,14 @@
 		"link": "#/"
 	},
 	{
-		"name": "Layanan",
+		"name": "Certivian",
 		"link": "javascript:",
-		"menus": [
-			{
-				"name": "QPOS",
-				"link": "javascript:",
-				"target": "#qpos"
-			},
-			{
-				"name": "QStore",
-				"link": "javascript:",
-				"target": "#qstore"
-			},
-			{
-				"name": "QDelivery",
-				"link": "javascript:",
-				"target": "#qdelivery"
-			},
-			{
-				"name": "QDistribution",
-				"link": "javascript:",
-				"target": "#qdistribution"
-			}
-		]
+		"target": "#certivian"
+	},
+	{
+		"name": "Type Ujian",
+		"link": "javascript:",
+		"target": "#type-test"
 	},
 	{
 		"name": "Masuk/Daftar",
