@@ -11,7 +11,8 @@ angular.module('hoqiiApp').directive('scrollTo', function () {
 		restrict: 'A',
 		link: function(scope, elm, attrs) {
 			angular.element(elm).bind('click', function() {
-				angular.element('body').animate({scrollTop: angular.element(attrs.scrollTo).offset().top - 65}, 'slow');
+				angular.element('body,html').animate({scrollTop: angular.element(attrs.scrollTo).offset().top - 65}, 'slow');
+				console.log(angular.element(attrs.scrollTo).offset().top);
 			});
 		}
 	};
