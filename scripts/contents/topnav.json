@@ -14,10 +14,6 @@
 		"target": "#type-test"
 	},
 	{
-		"name": "Masuk/Daftar",
-		"link": "#/login"
-	},
-	{
 		"name": "Hubungi Kami",
 		"link": "javascript:",
 		"target": "#contact-us"
