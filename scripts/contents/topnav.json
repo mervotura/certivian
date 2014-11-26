@@ -19,6 +19,7 @@
 	},
 	{
 		"name": "Hubungi Kami",
-		"link": "#/contact-us"
+		"link": "javascript:",
+		"target": "#contact-us"
 	}
 ]
