@@ -26,7 +26,7 @@ angular.module('hoqiiApp')
     			'title': 'Choose Your Own Exam',
     			'description': 'Dapat memilih ujian apa yang akan diikuti.',
     			'faClass': 'fa-folder-o',
-                'link': '#/qdelivery'
+                'link': '#/type-test'
     		},
     		{
     			'image': 'images/bg3.jpg',
@@ -34,7 +34,7 @@ angular.module('hoqiiApp')
     			'title': 'Daftar dan ikuti tesnya',
     			'description': 'Anda dapat melakukan tes sekarang juga dengan klik Daftar.',
     			'faClass': 'fa-pencil-square-o',
-                'link': '#/qstore'
+                'link': '#/login'
     		}
     	]
     };
@@ -49,7 +49,8 @@ angular.module('hoqiiApp')
     	return {
     		'height': $window.innerHeight,
     		'background-image': 'url(' + $scope.slide.slides[index].image + ')',
-    		'background-position': '50%'
+    		'background-position': '50%',
+            'background-size': 'cover'
     	};
     };
   });
