@@ -1,0 +1,24 @@
+[
+	{
+		"name": "Beranda",
+		"link": "#/"
+	},
+	{
+		"name": "Certivian",
+		"link": "javascript:",
+		"target": "#certivian"
+	},
+	{
+		"name": "Type Ujian",
+		"link": "javascript:",
+		"target": "#type-test"
+	},
+	{
+		"name": "Masuk/Daftar",
+		"link": "#/login"
+	},
+	{
+		"name": "Hubungi Kami",
+		"link": "#/contact-us"
+	}
+]
